@@ -149,7 +149,7 @@ def neg_sampling_loss_and_gradient(
     #first_item2 = r*u_o
 
 
-    in_sum = np.dot((1-sigmoid(-dot_product)), helper_mat)
+    #in_sum = np.dot((1-sigmoid(-dot_product)), helper_mat)
     #second_item2 = np.sum(in_sum)
 
     my_sum1 = -1*(1-sigmoid(np.dot(u_o.T, v_c)))*u_o
